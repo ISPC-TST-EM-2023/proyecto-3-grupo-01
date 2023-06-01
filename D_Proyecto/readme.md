@@ -1,47 +1,46 @@
 
 <img src="https://github.com/ISPC-TST-ELECTRONICA-MICROCONTROLADA/proyecto-2-grupo-01/blob/main/B_Bibliografia/Img/fondo.jpg" align="center" height="350">
 
-# Proyecto #2 Codificadores, Automatismo y
-"En este periodo veremos cómo se utiliza las técnicas digitales para darle solución
-a diferentes procesos o dispositivos"
+# Proyecto #2 Desarrollos con ESP32
+
 
 ## Objetivos:
 
-1. Comprender los conceptos básicos de la lógica combinacional y su
-aplicación en el diseño de sistemas digitales.
-2. Aprender a diseñar autómatas secuenciales para la automatización de
-procesos.
-3. Adquirir habilidades en el diseño y programación de sistemas digitales
-microcontrolados para la implementación de sistemas de seguridad.
-4. Desarrollar habilidades para la identificación y análisis de problemas en
-sistemas digitales, y para la aplicación de soluciones efectivas utilizando las
-herramientas y técnicas adecuadas.
+1. Conocer y familiarizarse con las capacidades del módulo ESP32.
+2. Aprender a montar y soldar componentes hardware para preparar
+un ESP32 para su programación y uso.
+3. Desarrollar habilidades de programación con C++ y MicroPython
+para ESP32, utilizando PlatformIO y RT-Thread MicroPython en
+VS Code.
+4. Adquirir experiencia en el manejo de periféricos comunes como
+teclados de membrana, displays LCD y WS2812B.
 
 ## Desarrollo
 
-### Ejercicio #1, lógica combinacional: 01/05 al 14/05
-Diseñar un controlador de display 7 segmentos utilizando un decodificador
-BCD a 7 segmentos y un circuito combinacional que convierta la entrada
-decimal en formato BCD. El controlador debe ser capaz de mostrar la entrada
-decimal en el display.
-### Ejercicio #2, lógica secuencial: 15/05 al 21/05
-Diseñar y programar un autómata secuencial (Moore o Mealy) para
-implementar el control de una línea de carga de paquetes de harina. El
-proceso de carga de paquetes debe iniciarse cuando la tolva tiene harina, las
-condiciones de seguridad están aseguradas y el operador pulsa el botón
-"start". Se deben definir al menos 6 estados para el automatismo.
-### Ejercicio #3, lógica microcontrolada: 22/05 al 28/05
-Diseñar e implementar una alarma de hogar microcontrolada.
+### 
+Ejercicio #1: Montaje del Hardware del Controlador
+En este ejercicio, los estudiantes aprenderán a montar el hardware
+básico necesario para trabajar con el ESP32. Esto incluirá la soldadura
+de componentes, el ensamblaje del ESP32 en un gabinete y la
+preparación de los periféricos para su uso. Los materiales requeridos
+incluyen el ESP32, placas universales, ristras de pines rectos, borneras,
+soldador y estaño, gabinete, cables conectores, teclado de membrana,
+expansor PCF 8574 y un display LCD 4200 I2C.
 
-### 🎥 Presentación
+Ejercicio #2: Desarrollo del Controlador para Display y Teclado
+Para este ejercicio, los estudiantes desarrollarán un controlador de
+software para manejar el display LCD y el teclado de membrana. Se
+utilizarán las capacidades de C++ con PlatformIO y MicroPython con
+RT-Thread en VS Code para programar el ESP32 para interactuar
+correctamente con estos periféricos.
 
-<!-- YT:START -->
-- [Video - Ejercicio 1][video1]
-
-<!-- YT:END -->
-
-
----
-[video1]: https://www.youtube.com/watch?v=ATg1RMdD05E
-
----
+Ejercicio #3: Controlador para Display Gigante basado en
+WS2812B
+En este ejercicio, los estudiantes diseñarán y desarrollarán un
+controlador para un display gigante desarrollado con WS2812B. Este
+display constará de 4 displays de 7 segmentos en una configuración de
+reloj 88:88, con cada display midiendo 15x10 cm. El tablero total medirá
+21 cm de alto por 55 cm de largo, con la incorporación de un conector 
+para la comunicación WS2812B. Al igual que en el ejercicio 2, se
+utilizarán las capacidades de C++ y MicroPython para programar el
+ESP32 para controlar este display.
