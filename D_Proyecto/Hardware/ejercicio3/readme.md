@@ -2,8 +2,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11029264&assignment_repo_type=AssignmentRepo)
 
 
-<img src="C_Ampliacion/src/banner_telecomv2.png" align="center" height="350">
-
 ## <em> <h4 align="center"> 
 Trabajo Practico #8 -Alarma Básica de Casa- 
 </h4> </em>
