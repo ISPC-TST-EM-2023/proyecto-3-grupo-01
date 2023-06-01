@@ -16,7 +16,7 @@ Proyectos del periodo #3:
 * :two: 
 * :three: 
 
-### Integrantes Grupo 1  
+### Integrantes Grupo 1 (listado preliminar, a confirmar durante la semana #9)
 <img src="C_Ampliacion/src/hr.png" align="center">
 
 ### Damos la bienvenida a todos los colaboradores 💙
